@@ -21,7 +21,6 @@ body {
         background:#4aaaa5;
         color: #ffffff;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 125%;
         height:80px;
         padding-top:10px;
         position:absolute;top:0%;left:10%;
@@ -29,6 +28,13 @@ body {
         width:25%;
   
     }
+
+    .fuck{
+        font-size: 120%;
+        margin:0px;
+        padding:10px;
+    }
+
     
 
 
