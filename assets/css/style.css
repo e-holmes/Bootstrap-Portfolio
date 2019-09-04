@@ -150,7 +150,7 @@ input{
 footer {
     height:50px;
     margin-top:5%;
-    position:relative;bottom:0;left:0;right:0;height:80px;
+    position:absolute;bottom:0;left:0;right:0;height:80px;
     background: #666666;
 }
 
