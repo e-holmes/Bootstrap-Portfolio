@@ -148,10 +148,11 @@ input{
 }
 
 footer {
-    height:50px;
+    height:70px;
     margin-top:5%;
-    position:absolute;bottom:0;left:0;right:0;height:80px;
+    position:absolute;bottom:0;left:0;right:0;
     background: #666666;
+    border-top:solid 10px purple;
 }
 
 .photos{
