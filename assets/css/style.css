@@ -8,10 +8,9 @@ body {
 
 .header { 
     position:static;top:0%;left:0;right:0;
-    height:90px;
+
     width:100%;
     background: #ffffff;
-    margin-bottom:5%;
     border-bottom:solid 2px #cccccc;
     }
 
@@ -20,7 +19,7 @@ body {
         color: #ffffff;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 110%;
-        height:90px;
+
         margin:0px;
         padding:10px;
         position:absolute;top:0%;left:10%;
@@ -57,10 +56,10 @@ body {
     }
 
 .cont{
-    margin-top:5%;
-    margin-bottom:10%;
-    margin-left:5%;
-    margin-right:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
 }
 
 .section {
@@ -79,6 +78,10 @@ body {
 
 }
 
+section{
+    margin:2%
+}
+
 .AM_photo {
     float: left;
     width:15%;
@@ -88,7 +91,7 @@ body {
 
 article {
     border-top:2px solid darkgrey;
-    margin-top:2%;
+    margin-top:4%;
 
 
 }
@@ -111,13 +114,14 @@ article {
     font-family:Arial, Helvetica, sans-serif;
     font-size:15px;
     color:#777777;
+    margin:2%;
 }
 
 input{
     color:#777777;
     float:left;
-    width:100%;
-    height:35px;
+    
+    height:35%;
 }
 
 .Minput{
@@ -130,7 +134,7 @@ input{
     background-color:#4aaaa5;
     border-color:#4aaaa5;
     color:#ffffff;
-    width:80%;
+    width:80px;
     height:30px;
     padding-top:5px;
     margin-top:20px;
@@ -138,18 +142,22 @@ input{
 
 footer {
     height:70px;
-    position:static;bottom:0;left:0;right:0;
+    position:fixed;bottom:0;left:0;right:0;
     background: #666666;
     border-top:solid 10px purple;
+    margin-top:2%;
 }
 
 .photos{
     padding-top:30px;
 }
 .pic1{
-    width: 300%;
+    width: 50%;
     padding-right:25px;
     padding-bottom:25px;
 }
 
-
+.row{
+    margin-right:0px;
+    margin-left:0px;
+}
